@@ -1,0 +1,147 @@
+body {
+    background: radial-gradient(circle, rgb(33, 33, 33) 0%, rgb(32, 32, 32) 20%, rgb(74, 74, 74) 250%);
+    overflow:hidden;
+}
+.font1 {
+    font-size:100px; 
+    color:white; 
+    margin:auto; 
+    width:auto; 
+    text-align:center; 
+    text-shadow: 1px 1px 2px rgb(80, 80, 80), 0 0 35px rgb(152, 152, 152), 0 0 20px rgb(237, 237, 237);
+    animation: font ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.font2 {
+    font-size:50px; 
+    color:white; 
+    margin:auto; 
+    width:auto; 
+    text-align:center; 
+    text-shadow: 1px 1px 2px rgb(80, 80, 80), 0 0 35px rgb(152, 152, 152), 0 0 20px rgb(237, 237, 237);
+    animation: font2 ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.font3 {
+    margin-top:300px;
+    font-size:100px; 
+    color:white; 
+    margin:auto; 
+    width:auto; 
+    text-align:center; 
+    text-shadow: 1px 1px 2px rgb(80, 80, 80), 0 0 35px rgb(152, 152, 152), 0 0 20px rgb(237, 237, 237);
+    animation: font3 ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.menu {
+    z-index:2;
+    height: 100px;
+    width:100%;
+    background-image: linear-gradient(to bottom, rgba(69, 69, 69, 0.729), rgba(255, 255, 255, 0));
+    top:0px;
+    left:0px;
+    position:absolute;
+    text-align:center;
+    align-content:center;
+}
+.navbtn {
+    margin-top:25px;
+    background-color:rgb(0,0,0,0);
+    color:grey;
+    font-size:40px;
+    border:0px;
+    transition:all 0.5s;
+}
+.navbtn:hover {
+    color:white;
+    font-size:50px;
+}
+.placeholder {
+    animation: nice ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.invis {
+    background-color: rgb(0,0,0,0);
+    border:0px;
+    width:20px;
+    margin:auto;
+}
+.stop {
+    width:75px;
+    height:75px;
+    border-radius:50%;
+    background-color: rgb(0,0,0,0);
+    border:2px solid rgb(188, 73, 73);
+    margin-top:5px;
+    margin-right:5%;
+}
+.restart {
+    width:75px;
+    height:75px;
+    border-radius:50%;
+    background-color: rgb(0,0,0,0);
+    border:2px solid rgb(188, 73, 73);
+    margin-top:5px;
+    margin-left:5%;
+}
+.start {
+    background-color: rgb(188, 73, 73);
+    width:85px;
+    height:85px;
+    border-radius:50%;
+    border:2px solid rgb(188, 73, 73);
+}
+.clicker {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 30px solid #ffffff;
+    display:inline-block;
+}
+.clicker2 {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 30px solid #ffffff;
+    display:inline-block;
+}
+.buttons {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:auto;
+}
+.save {
+    background-color: rgb(255, 255, 255);
+    width:120px;
+    height:55px;
+    border-radius:20%;
+    border:2px solid rgb(255, 255, 255);
+    box-shadow: 1px 1px 2px rgb(80, 80, 80), 0 0 35px rgb(152, 152, 152), 0 0 20px rgb(237, 237, 237);
+    margin:auto;
+    display:flex;
+    margin-top:100px;
+}
+
+@keyframes nice {
+    from   {opacity:0;}
+    to     {opacity:1;}
+}
+@keyframes font {
+    from {font-size:0px;}
+    to   {font-size:100px;}
+}
+@keyframes font2 {
+    from {font-size:0px;}
+    to   {font-size:50px;}
+}
+@keyframes font3 {
+    from {font-size:0px;}
+    to   {font-size:100px;}
+}

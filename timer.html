@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+    </style> 
+    <script src="script_timer.js">
+    </script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Styling.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="menu">
+        <button class="navbtn" style="float:left; margin-left:27%;" onclick="renew(1)">
+            Time
+        </button>
+        <button class="navbtn" onclick="renew(2)">
+            Stopwatch
+        </button>
+        <button class="navbtn" style="float:right; margin-right:27%;" onclick="renew(3)">
+            Timer
+        </button>
+    </div>
+    <div class="placeholder">
+        <div class="buttons" style="margin-top:200px; margin-bottom:0px; width:460px; background-color:rgba(0, 0, 0, 0);">
+            <button class="invis" onclick="menu(1)"><div class="clicker"></div></button>
+            <button class="invis" onclick="menu(2)"><div class="clicker"></div></button>
+            <button class="invis" onclick="menu(3)"><div class="clicker"></div></button>
+        </div>
+        <div style="background-color:rgba(156, 156, 156, 0); margin-top:0px;">
+            <h2 class="font3" id="Timer1" style="margin-top:0px; margin-bottom:0px;">00:00:00</h2>
+        </div>
+        <div class="buttons" style="margin-top:0px; margin-bottom:0px; width:460px; background-color:rgba(5, 5, 5, 0);">
+            <button class="invis" onclick="menu(4)"><div class="clicker2"></div></button>
+            <button class="invis" onclick="menu(5)"><div class="clicker2"></div></button>
+            <button class="invis" onclick="menu(6)"><div class="clicker2"></div></button>
+        </div>
+        <div class="buttons" style="margin-top:50px;">
+            <button class="stop" onclick="stop()"><div style="width:18px; height:18px; background-color:rgb(188, 73, 73); margin:auto;"></div></button>
+            <button class="start" onclick="play()"><div style="width: 0;height: 0;border-top: 15px solid transparent;border-left: 30px solid rgb(255, 255, 255);border-bottom: 15px solid transparent; margin:auto;"></div></button>
+            <button class="restart" onclick="restart()"><i class="fa fa-refresh" style="font-size:30px; color:rgb(188, 73, 73);"></i></button>
+        </div> 
+    </div>
+</body>
+</html>
